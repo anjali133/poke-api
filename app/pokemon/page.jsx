@@ -59,7 +59,7 @@ const PokemonInfo = () => {
 
     return (
         <div style={{ padding: '20px', maxWidth: '400px', margin: 'auto' }}>
-            <h1>Pokémon Info App</h1>
+            <h1>Pokemon App</h1>
 
             <select onChange={handleSelectChange} value={pokemonList[currentIndex] || ''}>
                 <option value="" disabled>Select a Pokémon</option>
